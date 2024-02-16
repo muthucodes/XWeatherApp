@@ -14,7 +14,7 @@ function App() {
     const fetchData = async () => {
       try {
         const response = await axios(
-          `http://api.weatherapi.com/v1/current.json?key=6a5c41004765499986d124223232610&q=${city}&aqi=no`
+          `https://api.weatherapi.com/v1/current.json?key=6a5c41004765499986d124223232610&q=${city}&aqi=no`
         );
         // const data = await response.json();
         console.log(response.data);
