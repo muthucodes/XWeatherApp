@@ -47,7 +47,7 @@ function App() {
           return submitHandler(e);
         }}
       >
-        <input name="cityName" placeholder="Enter city name" />
+        <input type="text" name="cityName" placeholder="Enter city name" />
         <button>Search</button>
       </form>
       {/* {weatherData ? <p>Weather Data available</p> : <p>Weather Data not available</p> } */}

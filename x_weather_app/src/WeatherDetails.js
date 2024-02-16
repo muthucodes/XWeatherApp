@@ -2,7 +2,7 @@ import './WeatherDetails.css';
 
 export default function WeatherDetails({temperature, humidity, condition, windSpeed}){
     return(<>
-    <div className='row'>
+    <div className='weather-cards'>
 
     
         <div className='weather-card'>
