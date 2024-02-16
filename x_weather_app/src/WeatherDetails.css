@@ -1,0 +1,19 @@
+.row{
+    display: flex;
+    gap: 10px;
+    width: 90vw;
+    margin: 20px auto;
+    justify-content: center;
+}
+.weather-card{
+    padding: 10px;
+    background-color: lightgray;
+    width: 20%;
+    border-radius: 10px;
+    font-size: 1.5rem;
+}
+.parameter{
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
+}

@@ -1,0 +1,19 @@
+
+.App {
+  text-align: center;
+  padding: 30px;
+  background-color: whitesmoke;
+}
+input{
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid skyblue;
+  margin-right: 10px;
+}
+button{
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: skyblue;
+  border: 1px solid skyblue;
+}
